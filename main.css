@@ -1,0 +1,39 @@
+/* ### Primary
+
+- Pale orange: hsl(25, 100%, 94%)
+
+### Neutral
+
+- Very dark blue: hsl(220, 13%, 13%)
+- Grayish blue: hsl(220, 14%, 75%)
+- Light grayish blue: hsl(223, 64%, 98%)
+- White: hsl(0, 0%, 100%)
+- Black (with 75% opacity for lightbox background): hsl(0, 0%, 0%) */
+
+:root {
+    --pomarancz:hsl(26, 100%, 55%);
+    --ciemno-szary:hsl(219, 9%, 45%);
+    --ciemno-niebieski: hsl(220, 13%, 13%);
+
+    --cien-maly: 0px 6px 6px #efefef;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1 {
+    color: var(--pomarancz);
+    background-color: var(--ciemno-szary);
+    border: 2px solid var(--ciemno-niebieski);
+
+}
+
+h2 {
+    background-color: var(--pomarancz);
+    color: var(--ciemno-szary);
+    box-shadow: var(--cien-maly)
+} */
