@@ -14,7 +14,6 @@
     --pomarancz:hsl(26, 100%, 55%);
     --ciemno-szary:hsl(219, 9%, 45%);
     --ciemno-niebieski: hsl(220, 13%, 13%);
-
     --cien-maly: 0px 6px 6px #efefef;
 
 }
@@ -29,6 +28,53 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    flex-wrap: wrap;
+    /* padding: 15px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.loginav {
+    margin-left: 150px;
+}
+
+.navigacja {
+    display: inline-flex;
+    gap: 1.5rem;
+    list-style: none;
+    color: hsl(220, 14%, 75%);
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+.ikony {
+    display: inline-flex;
+    gap: 1.5rem;
+    list-style: none;
+    align-items: center ;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    margin-right: 150px;
+    height: 40px;
+}
+
+.koszyk {
+    height: 20px;
+}
+
+.linia {
+    width: 1100px;
+    margin-left: 150px;
+    background-color: hsl(219, 9%, 45%);
+}
 
 /* h1 {
     color: var(--pomarancz);
