@@ -33,15 +33,15 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center ;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* padding: 15px; */
     padding-top: 30px;
     padding-bottom: 30px;
+    width: 90%;
+   
+    margin:0 auto;
 }
 
-.loginav {
-    margin-left: 150px;
-}
 
 .navigacja {
     display: inline-flex;
@@ -62,7 +62,7 @@ body {
 }
 
 .avatar {
-    margin-right: 150px;
+    /* margin-right: 150px; */
     height: 40px;
 }
 
@@ -71,10 +71,175 @@ body {
 }
 
 .linia {
-    width: 1100px;
-    margin-left: 150px;
-    background-color: hsl(219, 9%, 45%);
+    margin: 0 auto;
+    width: 90%;
+    color: hsl(339, 64%, 78%);
+    opacity: 0.3;
 }
+
+.kreski {
+    display: none;
+}
+
+@media (max-width:992px) {
+    .linia {
+        display: none;
+    }
+    .kreski {
+        display: inline;
+    }
+    .navigacja {
+        display: none;
+    }
+}
+
+.contener {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    /* flex-wrap: wrap; */
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin:0 auto;
+    /* background-color: hsl(0, 0%, 100%); */
+    /* min-height: 300px; */
+    gap: 80px;
+}
+
+.lewa {
+    background-color: hsl(0, 0%, 100%);
+    width: 70%;
+}
+
+.img1 {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.zdjecia {
+display: flex;
+justify-content: space-between;
+gap: 15px;
+}
+
+.items {
+    display: inline;
+
+}
+
+.img {
+    border-radius: 7px;
+    width: 100%;
+    
+}
+
+.prawa {
+    background-color: hsl(0, 0%, 100%);
+    width: 70%;
+    margin-top: 200px;
+    
+}
+
+.tekst {
+    width: 90%;
+    margin-top: 10px;
+    /* text-align: center; */
+
+}
+
+.naglowek {
+    margin-top: 17px;
+    width: 80%;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+
+.h3 {
+    color: hsl(26, 100%, 55%);
+    margin-top: -250px;
+}
+
+.kwota {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.procent {
+    width: 40px;
+    height: 20px;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 12px;
+
+}
+
+.rabat {
+    display: flex;
+/* justify-content: space-between; */
+/* gap: 30px; */
+    align-items: baseline;
+}
+
+.pierwsza {
+    color: hsl(220, 14%, 75%);
+    margin-top: 15px;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.zakup {
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.potwierdzenie {
+    display: flex;
+    gap: 15px;
+    display: flex;
+    
+}
+
+.ilosc {
+    margin-top: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.zero {
+    font-size: 15px;
+}
+
+.addToCart {
+    color: white;
+    font-size: 15px;
+}
+
+.kosz {
+    height: 15px;
+}
+
+
 
 /* h1 {
     color: var(--pomarancz);
@@ -88,3 +253,6 @@ h2 {
     color: var(--ciemno-szary);
     box-shadow: var(--cien-maly)
 } */
+
+
+/* zmienić flexa na column */
